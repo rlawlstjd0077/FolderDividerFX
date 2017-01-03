@@ -1,0 +1,31 @@
+.primary-button{
+    -fx-text-fill:white;
+    -fx-background-radius: 2 2 2 2;
+    -fx-border-radius: 2 2 2 2;
+    -fx-background-color:#4189DD;
+    -fx-background-insets: 0;
+    -fx-border-width : 0.8;
+    -fx-border-color : #2671CC;
+    -fx-font-family: "Roboto";
+    -fx-font-weight: bold;
+    -fx-font-size : 14;
+    -fx-min-width: 135;
+    -fx-min-height: 35.5;
+}
+.primary-button:focused{
+    -fx-background-color:#4189DE;
+    -fx-background-radius: 2 2 2 2;
+    -fx-focused-color:#4189DE;
+    -fx-faint-focused-color:#4189DE;
+    -fx-border-radius: 2 2 2 2;
+    -fx-effect: dropshadow(three-pass-box, rgba(65,137,221,0.8), 4, 0, 0, 0);
+}
+.primary-button:hover{
+    -fx-background-color: #438FE7;
+}
+.primary-button:armed{
+    -fx-background-color : #2671CC;
+}
+.primary-button:disabled{
+    -fx-opacity : 0.6;
+}
